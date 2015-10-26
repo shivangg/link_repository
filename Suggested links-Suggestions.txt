@@ -1,0 +1,4 @@
+http://stackoverflow.com/questions/31081205/textbox-validation-to-put-special-character-while-typing --later...
+SHIVANG- Remember to check empty session to prevent registration by a already regestered user .
+	-done by checking if username already exists..
+Rajat- Remember to use session and cookies both to have a better login.

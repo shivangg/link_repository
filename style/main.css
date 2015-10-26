@@ -1,0 +1,38 @@
+body{
+	margin:	2px;
+	background-image: url('../images/yellowbackground.jpg');
+}
+#siteTitle{
+	font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+a:hover{
+	text-decoration: none;
+	color: #035598;
+}
+#search li{
+	display: block;
+	color: #035598;
+    margin: 2px;
+}
+li{
+	display: block;
+	margin: 2px;
+}
+
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(3, 90, 150, 0), rgba(3, 90, 150, 1), transparent);
+ }
+ h1,h2,p,#viewScope
+ {
+ 	color:	#035598;
+ 	font-family: sans-serif;
+ }
+ .footer
+ {
+ 	float:left;
+ 	width: 100%;
+ }

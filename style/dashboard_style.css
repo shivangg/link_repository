@@ -1,0 +1,164 @@
+ #leftside
+{
+	padding: 0% 0% 1% 1%;
+	margin: 2%;
+	border: 2px  #1faffc;
+}
+#dp
+{
+    width: 65%;
+}
+#search
+{
+	border-radius: 7px;
+    border: 2px solid #1faffc;
+    padding: 1%; 
+    float: right;
+}
+ 
+ #theUrl
+ {
+ 	border-radius: 7px;
+    border: 2px solid #1feeff;
+    padding: 1%;
+    width: 70%;
+    -webkit-transition:1s ease-in-out;
+}
+@keyframes colorchange{
+    from{border-color: #1feeff;}
+    to{border-color: #29EF11;}
+}
+#theUrl:focus{
+    animation-name: colorchange;
+    animation-duration: 2s;
+     -webkit-animation-fill-mode:forwards;  
+    -webkit-transform:translate(3em,0) scale(1.7);
+}
+.urlFeeds,#pasteUrl
+ {
+ 	border-radius: 7px;   
+    padding: 1%;
+ }
+ #searchsuggestions
+ {
+    float: right;
+ }
+ #searchsuggestions a{
+    color: #035598;
+ }
+ .urlFeeds
+ {
+   /*     margin-left: 15%;
+    width: 74%;
+    */
+ }
+ .layout1,.layout2
+ {
+    /*
+    
+    margin-left: 14%;    
+    padding: 1%;
+   
+    width: 74%;
+    float:left;
+    background-color: #F5FFFF;
+    opacity: 0.9;
+    */
+    border-radius: 3%;
+    border: 1px solid #035598;
+    padding-bottom: 2%;
+    text-align: center;
+    
+}
+
+.image_added
+ {   
+        
+        height:25%;
+ }
+ .layout1 img, iframe{
+    border: 1px solid black;
+ }
+ .left_dom
+ { /*float:left;
+ margin-left: 4.5%;
+ margin-top: 4.5%;
+ width:35%;
+height: 30%;*/
+   }
+ .right_dom
+ {
+    /*float:right;
+    margin-right: 4.5%;
+    margin-top: 2%;    
+    width: 35%;    */
+ }  
+ .user_desc_url 
+ {
+
+    border-radius: 7%;
+    background-color: #FCFCBE;    
+    padding: 1%;
+    border: 1px solid #8D799B;  
+ }
+
+ .crawl_desc_url{
+    padding: 1%;
+ }
+ .added_text
+ {
+  margin-left: 75%;
+ }
+ #dom_ajax
+ {
+    padding: 1%;
+    float:left;
+ }
+ #user_desc
+ {
+    width: 100%;
+ }
+/*#img_ajax
+{
+float: left;
+margin-left: .5%;
+ margin-top: .5%;
+ width:35%;
+ height:30%;
+ 
+}
+*/
+#text_main
+{
+float:right;
+   margin-right: 25%;
+    margin-top: 2%;    
+    width: 35%;    
+}
+.fav_icon
+{
+    width: 3%;
+    height:3%;
+    margin-left: 5%;
+    float: left;
+    border: 1%;
+}
+
+textarea select {
+    background-color:#FDFA9D;
+}
+.loader
+{
+    display: none;
+    width:15%;
+    height:15%;
+    margin-left: 45%;
+
+}
+.loading-image
+{
+    width: 100%;
+    height:100%;
+
+
+}

@@ -1,0 +1,47 @@
+ .field
+ {
+ 	color: #035598;
+ 	border-radius: 7px;
+    border: 2px solid #1faffc;
+    width: 100%;
+
+	}
+ .help
+ {
+ 	color: red;
+ }
+#main
+{
+	width:	40%;
+	margin: 0% 30% 2% 30%;
+	padding: 2% 2% 2% 2%;
+	border: 2px solid #1faffc;
+}
+ #submit
+ {
+ 	font-size: 2em;
+ 	background-color:  #1faffc;
+ 	margin:	6% 12% 6% 25%;
+ 	width: 50%; 
+ }
+
+
+#username { 
+  padding: 10px 20px 10px 2px; 
+  width: 100%; 
+}
+
+.thinking {
+  background: #fff url('../images/inProcess.gif') 98% 50% no-repeat; 
+  padding: 10px 20px 10px 2px; 
+  }
+.approved { 
+ background: #fff url('../images/okay.png') 98% 50% no-repeat; 
+  padding: 10px 20px 10px 2px; 
+  
+}
+.denied { 
+  background: #ff8282 url('../images/inUse.png') 98% 50% no-repeat; 
+  padding: 10px 20px 10px 2px; 
+ 
+}
